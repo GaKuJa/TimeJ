@@ -14,32 +14,27 @@ public class QuestionList : MonoBehaviour
 
     public void Start()
     {
-        int[] Qestions = {0, 1};
+        int[] marubatu = { 0, 1 };
         image = GameObject.Find("Image").GetComponent<Image>();
         image.enabled = false;
 
-        for (int i = 0; i < Qestions.Length; i++)
+        for (int i = 0; i < marubatu.Length; i++)
         {
-            if (Qestions[i] == 0)
+            if (marubatu[i] == 0)
             {
                 image.enabled = true;
                 image.sprite = maru;
             }
 
-            if (Qestions[i] == 1)
+            if (marubatu[i] == 1)
             {
                 image.enabled = true;
                 image.sprite = batu;
             }
 
 
-            Debug.Log(Qestions[i]);
+            Debug.Log(marubatu[i]);
         }
-        //Qestions[0] = ;
-        //Qestions[1] = ;
-        //Qestions[2] = ;
-        //Qestions[3] = ;
-        //Qestions[4] = ;
 
     }
 
