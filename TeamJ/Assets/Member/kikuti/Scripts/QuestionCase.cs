@@ -17,17 +17,17 @@ public class QuestionCase : MonoBehaviour
 
     public void EasyButton()
     {
-        question = Difficulty.easy;//questionにdiffiultyのeasyを代入
+        question = Difficulty.easy;//questionにdiffiultyのeasyを代入(初期化)初期値easy
 
     }
     public Difficulty GetQuestion()
     {
-        return question;
+        return question;//難易度を戻り値にして返す。
     }
 
     public void NormalButton()
     {
-        question = Difficulty.normal;//questionにdiffiultyのnormalを代入
+        question = Difficulty.normal;//ボタンが押されたらquestionにdiffiultyのnormalを代入
     }
 
     public void HardButton()
@@ -35,9 +35,9 @@ public class QuestionCase : MonoBehaviour
         question = Difficulty.hard;//questionにdiffiultyのhardを代入
     }
 
-    private void StartButton()
+    public void StartButton()
     {
-        SceneManager.LoadScene("SampleScene");//自分のシーン(難易度画面)を作ってそっちにスクリプト、ボタンを置き、samplescene内のものは消去する。
+        SceneManager.LoadScene("SampleScene");
     }
 
 
