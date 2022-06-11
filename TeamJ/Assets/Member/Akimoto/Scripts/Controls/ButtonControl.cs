@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ButtonControl : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class ButtonControl : MonoBehaviour
     private GameStateScript gameStateScript;
 
     [SerializeField]
-    private SpriteRenderer correctImage, errorImage;        
+    private Image correctImage, errorImage;        
     public void ChangeMainGameScene()
     {
         SceneManager.LoadScene("MainGameScene");

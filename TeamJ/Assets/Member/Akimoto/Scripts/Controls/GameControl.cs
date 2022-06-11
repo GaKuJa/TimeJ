@@ -27,9 +27,9 @@ public class GameControl : MonoBehaviour
             UIManager.Instance.SetHintMode(HintButtonMode.normal);
         }
         if (Input.GetKeyDown(KeyCode.Space) && 
-            GameManager.Instance.GetGameState() == GameState.AnswerTime)
+            SceneManager.GetActiveScene().name == "AnswerScene")
         {
-            
+            SceneManager.LoadScene("ResultScene");
         }
     }
 

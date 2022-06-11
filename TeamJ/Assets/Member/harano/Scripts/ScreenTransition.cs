@@ -18,11 +18,11 @@ public class ScreenTransition : MonoBehaviour
 
     }
 
-    //’Ç‰Á‚µ‚½
-    //ƒ{ƒ^ƒ“‚ğ‰Ÿ‚µ‚½‚Ìˆ—
+    //ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½
+    //ï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½
     public void PushButton()
     {
-        SceneManager.LoadScene("Game Scene");
+        SceneManager.LoadScene("MainGameScene");
     }
 }
 

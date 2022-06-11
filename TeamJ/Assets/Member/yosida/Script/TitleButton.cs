@@ -8,7 +8,7 @@ public class TitleButton : MonoBehaviour
 {
     public void Onclick()
     {
-        //‚±‚±‚ÅˆÚ‚è‚½‚¢ƒV[ƒ“‚ğw’è‚µ‚Ü‚·B
-        SceneManager.LoadScene("Stage1");
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ÅˆÚ‚è‚½ï¿½ï¿½ï¿½Vï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½wï¿½è‚µï¿½Ü‚ï¿½ï¿½B
+        SceneManager.LoadScene("DifficultyScene");
     }
 }

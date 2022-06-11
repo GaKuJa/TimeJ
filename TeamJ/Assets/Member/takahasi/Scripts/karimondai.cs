@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class karimondai : MonoBehaviour
 {
-    public static string a = "‰¼–â‘è‚Æ‚µ‚Ä•\Ž¦";
+    //public static string a = "ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä•\ï¿½ï¿½";
 
-    public static string getA()
-    {
-        return a;
-    }
+    
 }

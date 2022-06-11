@@ -21,7 +21,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     private BlackCurtainControl blackCurtainControl;
-    private GameState       currentGameState;
+    [SerializeField]
+    private static GameState       currentGameState;
 
     private void Awake()
     {

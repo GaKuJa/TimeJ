@@ -17,27 +17,30 @@ public class QuestionCase : MonoBehaviour
 
     public void EasyButton()
     {
-        question = Difficulty.easy;//question‚Édiffiulty‚Ìeasy‚ğ‘ã“ü(‰Šú‰»)‰Šú’leasy
-
+        question = Difficulty.easy;//questionï¿½ï¿½diffiultyï¿½ï¿½easyï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½ï¿½leasy
+        Debug.Log(question);
     }
-    public Difficulty GetQuestion()
-    {
-        return question;//“ïˆÕ“x‚ğ–ß‚è’l‚É‚µ‚Ä•Ô‚·B
-    }
-
+    
     public void NormalButton()
     {
-        question = Difficulty.normal;//ƒ{ƒ^ƒ“‚ª‰Ÿ‚³‚ê‚½‚çquestion‚Édiffiulty‚Ìnormal‚ğ‘ã“ü
+        question = Difficulty.normal;//ï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½questionï¿½ï¿½diffiultyï¿½ï¿½normalï¿½ï¿½ï¿½ï¿½
+        Debug.Log(question);
     }
 
     public void HardButton()
     {
-        question = Difficulty.hard;//question‚Édiffiulty‚Ìhard‚ğ‘ã“ü
+        question = Difficulty.hard;//questionï¿½ï¿½diffiultyï¿½ï¿½hardï¿½ï¿½ï¿½ï¿½
+        Debug.Log(question);
+    }
+    
+    public Difficulty GetQuestion()
+    {
+        return question; //ï¿½ï¿½Õ“xï¿½ï¿½ß‚ï¿½lï¿½É‚ï¿½ï¿½Ä•Ô‚ï¿½ï¿½B
     }
 
     public void StartButton()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("MainGameScene");
     }
 
 
